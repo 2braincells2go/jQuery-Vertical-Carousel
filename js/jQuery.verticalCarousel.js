@@ -1,3 +1,10 @@
+/*!
+ * jQuery Vertical Carousel
+ * https://github.com/haripaddu/jQuery-Vertical-Carousel
+ * Version: 1.0
+ * License: MIT
+ */
+
 (function($) {  
 	$.fn.verticalCarousel = function(options) {  
 
