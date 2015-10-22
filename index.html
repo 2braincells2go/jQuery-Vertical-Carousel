@@ -1,0 +1,67 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/jQuery.verticalCarousel.css">
+    </head>
+    <body>
+        <div class="vc_wrapper">
+            <a href="#" class="vc_goUp">Up</a>
+            <ul class="vc_list">
+                <li>
+                    1
+                </li>
+                <li>
+                    2
+                </li>
+                <li>
+                    3
+                </li>
+                <li>
+                    4
+                </li>
+                <li>
+                    5
+                </li>
+            </ul>
+            <a href="#" class="vc_goDown">Down</a>
+        </div>
+         <div class="vc_wrapsper">
+            <a href="#" class="vc_goUp">Up</a>
+            <ul class="vc_list">
+                <li>
+                    1
+                </li>
+                <li>
+                    2
+                </li>
+                <li>
+                    3
+                </li>
+                <li>
+                    4
+                </li>
+                <li>
+                    5
+                </li>
+            </ul>
+            <a href="#" class="vc_goDown">Down</a>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/jQuery.verticalCarousel.js"></script>
+        <script>
+            $(".vc_wrapsper").verticalCarousel({
+                currentItem: 2,
+                showItems: 2,
+            });
+            $(".vc_wrapper").verticalCarousel({
+                currentItem: 1,
+                showItems: 3,
+            });
+        </script>
+    </body>
+</html>
