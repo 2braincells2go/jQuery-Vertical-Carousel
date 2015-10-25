@@ -5,16 +5,16 @@
  * License: MIT
  */
 
-@import "base";
+@import "compass/css3";
 
-*{
+* {
 	@include box-sizing(border-box);
 }
 
 .vc_goUp, .vc_goDown{
 	display:block;
 	&.isDisabled{
-		@include opacity(0.5);
+		@include opacity(0.3);
 		cursor: not-allowed;
 	}
 }

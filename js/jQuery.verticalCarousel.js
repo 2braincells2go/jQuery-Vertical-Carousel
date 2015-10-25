@@ -23,22 +23,24 @@
 		var totalItems;
 
 		var setContainerHeight = (function(){
+			var containerHeight = 0;
+			var marginTop = 0;
 			if (options.showItems == 1){
-				var currentItemHeight = $(":nth-child(" + options.currentItem + ")", carouselGroup).outerHeight(true);
-				$(carouselContainer).css("height", currentItemHeight);
+				containerHeight = $("> :nth-child(" + options.currentItem + ")", carouselGroup).outerHeight(true);
 			}
 			else{
-				var currentItemsHeight = 0;
-				for (i = 0; i < options.showItems; i++) {
-					var currentItemHeight = i + options.currentItem;
-				    currentItemsHeight = currentItemsHeight + $(":nth-child(" + currentItemHeight + ")", carouselGroup).outerHeight(true);
+				for (i = 1; i <= options.showItems; i++) {
+				    containerHeight = containerHeight + $("> :nth-child(" + i + ")", carouselGroup).outerHeight(true);
 				}
-				$(carouselContainer).css("height", currentItemsHeight);
 			}
+			var nextItem = options.showItems + options.currentItem;
+			marginTop = $("> :nth-child(" + nextItem + ")", carouselGroup).css("marginTop");
+			containerHeight = containerHeight - parseInt(marginTop);
+			$(carouselContainer).css("height", containerHeight);
 		});
 
 		var setOffset = (function(){
-			var currentItemOffset = $(":nth-child(" + options.currentItem + ")", carouselGroup).offset();
+			var currentItemOffset = $("> :nth-child(" + options.currentItem + ")", carouselGroup).offset();
 			var carouselGroupOffset = $(carouselGroup).offset();
 			var offsetDiff = carouselGroupOffset.top - currentItemOffset.top;
 			$(carouselGroup).css({

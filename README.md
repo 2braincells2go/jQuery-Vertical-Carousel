@@ -10,6 +10,7 @@ A simple, easily customizable and lightweight vertical carousel plugin using jQu
 <pre>
 &lt;div class="<strong>yourClassName</strong>"&gt;
 	&lt;a href="#" class="vc_goUp"&gt;Up&lt;/a&gt;
+	&lt;a href="#" class="vc_goDown"&gt;Down&lt;/a&gt;
 	&lt;ul class="vc_list"&gt;
 		&lt;li&gt;..&lt;/li&gt;
 		&lt;li&gt;..&lt;/li&gt;
@@ -17,7 +18,6 @@ A simple, easily customizable and lightweight vertical carousel plugin using jQu
 		&lt;li&gt;..&lt;/li&gt;
 		&lt;li&gt;..&lt;/li&gt;
 	&lt;/ul&gt;
-	&lt;a href="#" class="vc_goDown"&gt;Down&lt;/a&gt;
 &lt;/div&gt;
 </pre>
 <p>In the above HTML, you can</p>
