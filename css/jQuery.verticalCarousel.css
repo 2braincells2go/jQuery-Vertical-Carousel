@@ -17,8 +17,8 @@
 }
 /* line 16, ../sass/jQuery.verticalCarousel.scss */
 .vc_goUp.isDisabled, .vc_goDown.isDisabled {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-  opacity: 0.5;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+  opacity: 0.3;
   cursor: not-allowed;
 }
 
