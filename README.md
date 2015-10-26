@@ -36,15 +36,19 @@ A simple, easily customizable and lightweight vertical carousel plugin using jQu
 <pre>
 $(".<strong>yourClassName</strong>").verticalCarousel();
 </pre>
+
+<h3>Customization</h3>
 <p>You can customize the vertical carousel by setting two different parameters</p>
 <ol>
 	<li>currentItem - You can choose which item to show when loaded</li>
 	<li>showItems - You can choose how many items to show from the current Item in the vertical Carousel</li>
 </ol>
-<p><strong>Example</strong>
+<p><strong>Example</strong></p>
 <pre>
 $(".<strong>yourClassName</strong>").verticalCarousel({
 	currentItem: 2,
     showItems: 2
 });
 </pre>
+<p><strong>Changing the speed of Carousel</strong></p>
+<p>Locate ".vc_container" and ".vc_list" classes in the css or sass file and change the transition speed to your choice</p>
