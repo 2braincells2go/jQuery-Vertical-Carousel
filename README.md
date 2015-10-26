@@ -11,14 +11,14 @@ A simple, easily customizable and lightweight vertical carousel plugin using jQu
 
 <h6>Step 2: Create HTML with the following structure.</h6>
 <pre>
-<!-- In order to plugin to work, all the classes that starts with "vc_" should not be changed -->
-<!-- This div is needed to wrap the carousel structure and you can add a class or ID of your choice -->
+&lt;!-- In order to plugin to work, all the classes that starts with "vc_" should not be changed --&gt;
+&lt;!-- This div is needed to wrap the carousel structure and you can add a class or ID of your choice --&gt;
 &lt;div class="<strong>yourClassName</strong>"&gt;
-	<!-- Anchor tag for Up action -->
+	&lt;!-- Anchor tag for Up action --&gt;
 	&lt;a href="#" class="vc_goUp"&gt;Up&lt;/a&gt;
-	<!-- Anchor tag for Down action -->
+	&lt;!-- Anchor tag for Down action --&gt;
 	&lt;a href="#" class="vc_goDown"&gt;Down&lt;/a&gt;
-	<!-- The HTML code for Carousel and Carousel Items. You can use any container tags instead of UL, LI -->
+	&lt;!-- The HTML code for Carousel and Carousel Items. You can use any container tags instead of UL, LI --&gt;
 	&lt;ul class="vc_list"&gt;
 		&lt;li&gt;..&lt;/li&gt;
 		&lt;li&gt;..&lt;/li&gt;
