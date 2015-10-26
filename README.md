@@ -1,6 +1,9 @@
 # jQuery-Vertical-Carousel
 A simple, easily customizable and lightweight vertical carousel plugin using jQuery
 
+<h3>Demo</h3>
+<img src="https://raw.githubusercontent.com/haripaddu/jQuery-Vertical-Carousel/master/img/demo1.gif"/>
+
 <h3>How to get the Vertical Carousel running in your application</h3>
 
 <h6>Step 1: Include CSS in your header</h6>
