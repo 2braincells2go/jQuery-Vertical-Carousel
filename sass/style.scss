@@ -1,4 +1,5 @@
 @import "compass/css3";
+@import "compass/css3/transform";
 @import "compass/typography/vertical_rhythm";
 
 $rhythm-unit: 'px';
@@ -42,6 +43,9 @@ body{
 		text-align: center;
 		color: #000;
 		margin-left:5px;
+		&:active{
+			@include scale(.7, .7);
+		}
 	}
 }
 .recentArticlesGroup{
